@@ -1,5 +1,8 @@
 # courseraGoWeek2Assignment
 ## Coursera course: Programming with Google Go (University of California, Irvine) 
+
+[Coursera - Getting Started with Go](https://www.coursera.org/learn/golang-getting-started/home/welcome)
+
 ### Week 2 - Assignment
 
 #### Goals
