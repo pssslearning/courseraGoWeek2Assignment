@@ -46,7 +46,7 @@ devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning$ cd courseraGoWeek2Ass
 devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek2Assignment$ code .
 ```
 
-## 2. Compliling and testing
+## 2.1 Compliling and testing `trunc.go`
 
 ```sh
 devel1@vbxdeb10mate:~$ cd $GOPATH/src/
@@ -86,7 +86,7 @@ Please enter a float number to trunc ...
 Goodbye !!!
 ```
 
-## 3. Testing behaviour for an incorrect input (not parseable as float number)
+## 2.2. Testing behaviour for an incorrect input (not parseable as float number)
 
 ```sh
 devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek2Assignment/trunc$ ./trunc
@@ -106,4 +106,65 @@ devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek2Assignm
 his is not a floating point number ./trunc!
 bash: his: orden no encontrada
 devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek2Assignment/trunc$ 
+```
+
+## 3.1 Compliling and testing `findian.go`
+
+```sh
+devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek2Assignment/findian$ go build findian.go 
+
+devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek2Assignment/findian$ ./findian
+
+Welcome user to 2nd. Assignment program for Week 2,
+
+--------------------------------------------------------------
+Please enter a string to test ... 
+      (press <CTRL+C> or 'END' to exit.) 
+--------------------------------------------------------------
+ian
+Found!
+--------------------------------------------------------------
+Please enter a string to test ... 
+      (press <CTRL+C> or 'END' to exit.) 
+--------------------------------------------------------------
+Ian
+Found!
+--------------------------------------------------------------
+Please enter a string to test ... 
+      (press <CTRL+C> or 'END' to exit.) 
+--------------------------------------------------------------
+iuiygaygn
+Found!
+--------------------------------------------------------------
+Please enter a string to test ... 
+      (press <CTRL+C> or 'END' to exit.) 
+--------------------------------------------------------------
+I d skd a efju N
+Found!
+--------------------------------------------------------------
+Please enter a string to test ... 
+      (press <CTRL+C> or 'END' to exit.) 
+--------------------------------------------------------------
+ihhhhhn
+Not Found!
+--------------------------------------------------------------
+Please enter a string to test ... 
+      (press <CTRL+C> or 'END' to exit.) 
+--------------------------------------------------------------
+ina
+Not Found!
+--------------------------------------------------------------
+Please enter a string to test ... 
+      (press <CTRL+C> or 'END' to exit.) 
+--------------------------------------------------------------
+xian
+Not Found!
+--------------------------------------------------------------
+Please enter a string to test ... 
+      (press <CTRL+C> or 'END' to exit.) 
+--------------------------------------------------------------
+END
+
+Goodbye !!!
+
 ```
