@@ -1,7 +1,14 @@
-// --------------------------------------------------------------
+// -----------------------------------------------------------------
 // Source code mantained at Github repository for Learning
 // https://github.com/pssslearning/courseraGoWeek2Assignment
-// --------------------------------------------------------------
+// -----------------------------------------------------------------
+// NOTE:
+// -----------------------------------------------------------------
+// For the prompt cycle I could have used diverse Reader functions
+// from the "bufio" package, but I rather tried to stick as much as
+// possible to the content that had been shown in the course videos
+// in which that package had neither been mentioned / explained
+// -----------------------------------------------------------------
 
 package main
 
@@ -46,6 +53,9 @@ func main() {
 
 			if aRuneInInput == rune('\n') {
 				break
+			} else if aRuneInInput == rune('\r') {
+				// Windows Systems use \r\n: Ignore \r
+				continue
 			}
 
 			aString += string(aRuneInInput)
